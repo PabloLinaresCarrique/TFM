@@ -1,1 +1,47 @@
 
+# AML Case Management Tool
+
+## Overview
+The AML (Anti-Money Laundering) Case Management Tool is a comprehensive application designed to help financial institutions manage and analyze suspicious activities efficiently. The tool incorporates various features like alert management, rule-based detection, chatbot interaction, and a user-friendly dashboard.
+
+## Features
+- **Alert Management**: Track, view, and manage AML alerts through the `alert_details.py` module.
+- **Rule-Based Detection**: Implement and apply AML rules to detect suspicious activities using `aml_rules.py`.
+- **Interactive Dashboard**: Visualize alerts and data through an intuitive dashboard created in `dashboard.py`.
+- **Chatbot Interaction**: A chatbot feature (`chatbot.py`) that assists users in navigating the tool and managing cases.
+- **User Authentication**: Secure login and authentication managed by `login.py`.
+- **Utility Functions**: Common utility functions are centralized in `utils.py` for reusability and cleaner code.
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-repository-url.git
+
+Navigate to the project directory:
+bash
+Copy code
+cd aml-case-management-tool
+Install the dependencies: Ensure you have Python installed. Then, run:
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+Run the application: You can start the application by running the main app file:
+
+bash
+Copy code
+python app.py
+Access the Dashboard: Once the app is running, access the dashboard through your web browser at the address provided in the terminal (typically http://localhost:8501).
+
+Interact with the Chatbot: The chatbot can be accessed through the dashboard to assist with navigating the tool and managing alerts.
+
+File Structure
+alert_details.py: Handles AML alert data management.
+aml_rules.py: Implements AML rules and detection logic.
+app.py: The main entry point of the application.
+chatbot.py: Manages the chatbot feature for user interaction.
+dashboard.py: Builds the dashboard interface for visualizing data.
+login.py: Manages user authentication and login processes.
+utils.py: Contains utility functions used across the application.
+requirements.txt: Lists the required Python packages.
