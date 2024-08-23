@@ -1,4 +1,0 @@
-pandas
-pymysql
-sqlalchemy
-streamlit
