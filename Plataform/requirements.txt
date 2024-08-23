@@ -1,0 +1,16 @@
+pandas
+streamlit
+matplotlib
+plotly
+networkx
+scipy
+python-dotenv
+openai
+PyPDF2
+langchain
+langchain-community
+pymysql
+streamlit-aggrid
+faiss-cpu
+pdfplumber
+streamlit-pdf-viewer
