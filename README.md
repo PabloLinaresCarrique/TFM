@@ -6,7 +6,7 @@
 - La página de PipeLine --> Hace referencia a la prueba del modelo anterior entrenado y guardado en una Pipeline para poder productivizar el modelo
 - La página de Prueba_de_Pipiline --> Hace referencia a la prueba del modelo anterior pero con otro dataset 
 
-# Platform
+## Platform
 
 ## Overview
 The AML (Anti-Money Laundering) Case Management Tool is a comprehensive application designed to help financial institutions manage and analyze suspicious activities efficiently. The tool incorporates various features like alert management, rule-based detection, aml assitant, and a user-friendly dashboard.
