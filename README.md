@@ -9,7 +9,7 @@
 - Model.pkl  es el archivo pickle del modelo que se carga en Flask para la productivización del modelo
 - label_encoder.pkl es el archivo con los encoders usados en el modelo que se carga en Flask para la productivización del modelo. Necesario pata transformar automáticamente nuevos datos cuando se hacen peticiones
 
-#Productivización
+# Productivización
 
 - Flask_launch es para crear el servidor local de Flask. Es necesario mantenerlo activo en jupyter notebook para hacer las peticiones (aparece el símbolo de cargando en la página)
 - Flask_predicción es para realizar las peticiones en otra instancia de jupyter notebook
