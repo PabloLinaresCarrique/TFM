@@ -4,7 +4,15 @@
 
 - La página de Modelo Random Forest Correcto --> Hace referencia al modelo balanceado y entrenado de Random forest
 - La página de PipeLine --> Hace referencia a la prueba del modelo anterior entrenado y guardado en una Pipeline para poder productivizar el modelo
-- La página de Prueba_de_Pipiline --> Hace referencia a la prueba del modelo anterior pero con otro dataset 
+- La página de Prueba_de_Pipiline --> Hace referencia a la prueba del modelo anterior pero con otro dataset
+- - La carpeta de Modelo,  Modelo_Random_Forest_Analizado --> Hace referencia al modelo tras el análisis y con gráficos
+- Model.pkl  es el archivo pickle del modelo que se carga en Flask para la productivización del modelo
+- label_encoder.pkl es el archivo con los encoders usados en el modelo que se carga en Flask para la productivización del modelo. Necesario pata transformar automáticamente nuevos datos cuando se hacen peticiones
+
+#Productivización
+
+- Flask_launch es para crear el servidor local de Flask. Es necesario mantenerlo activo en jupyter notebook para hacer las peticiones (aparece el símbolo de cargando en la página)
+- Flask_predicción es para realizar las peticiones en otra instancia de jupyter notebook
 
 # Platform
 
