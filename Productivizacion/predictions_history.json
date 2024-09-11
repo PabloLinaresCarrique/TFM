@@ -1,0 +1,158 @@
+[
+    {
+        "timestamp": "2024-09-10 17:22:39.270085",
+        "input_data": {
+            "From Bank": 9635,
+            "Account2": 748703,
+            "To Bank": 7774,
+            "Account4": 628461,
+            "Amount Received": 4670.76,
+            "Receiving Currency": 12,
+            "Amount Paid": 4670.76,
+            "Payment Currency": 12,
+            "Payment Format": 0,
+            "Year": 2022,
+            "Month": 9,
+            "Day": 8,
+            "Hour": 11,
+            "Minute": 37,
+            "Is Laundering": 1
+        },
+        "results": [
+            {
+                "label": "Postive",
+                "probability": 0.998
+            }
+        ]
+    },
+    {
+        "timestamp": "2024-09-10 17:22:39.274608",
+        "input_data": {
+            "From Bank": 9466,
+            "Account2": 656588,
+            "To Bank": 64,
+            "Account4": 549994,
+            "Amount Received": 3240.34,
+            "Receiving Currency": 4,
+            "Amount Paid": 3240.34,
+            "Payment Currency": 4,
+            "Payment Format": 0,
+            "Year": 2022,
+            "Month": 9,
+            "Day": 2,
+            "Hour": 0,
+            "Minute": 15,
+            "Is Laundering": 1
+        },
+        "results": [
+            {
+                "label": "Postive",
+                "probability": 0.9952
+            }
+        ]
+    },
+    {
+        "timestamp": "2024-09-10 17:22:39.278926",
+        "input_data": {
+            "From Bank": 10952,
+            "Account2": 1085463,
+            "To Bank": 881,
+            "Account4": 917383,
+            "Amount Received": 37450.01,
+            "Receiving Currency": 4,
+            "Amount Paid": 37450.01,
+            "Payment Currency": 4,
+            "Payment Format": 0,
+            "Year": 2022,
+            "Month": 9,
+            "Day": 10,
+            "Hour": 20,
+            "Minute": 31,
+            "Is Laundering": 1
+        },
+        "results": [
+            {
+                "label": "Postive",
+                "probability": 0.9786
+            }
+        ]
+    },
+    {
+        "timestamp": "2024-09-10 17:22:49.010348",
+        "input_data": {
+            "From Bank": 9635,
+            "Account2": 748703,
+            "To Bank": 7774,
+            "Account4": 628461,
+            "Amount Received": 4670.76,
+            "Receiving Currency": 12,
+            "Amount Paid": 4670.76,
+            "Payment Currency": 12,
+            "Payment Format": 0,
+            "Year": 2022,
+            "Month": 9,
+            "Day": 8,
+            "Hour": 11,
+            "Minute": 37,
+            "Is Laundering": 1
+        },
+        "results": [
+            {
+                "label": "Postive",
+                "probability": 0.998
+            }
+        ]
+    },
+    {
+        "timestamp": "2024-09-10 17:22:49.015562",
+        "input_data": {
+            "From Bank": 9466,
+            "Account2": 656588,
+            "To Bank": 64,
+            "Account4": 549994,
+            "Amount Received": 3240.34,
+            "Receiving Currency": 4,
+            "Amount Paid": 3240.34,
+            "Payment Currency": 4,
+            "Payment Format": 0,
+            "Year": 2022,
+            "Month": 9,
+            "Day": 2,
+            "Hour": 0,
+            "Minute": 15,
+            "Is Laundering": 1
+        },
+        "results": [
+            {
+                "label": "Postive",
+                "probability": 0.9952
+            }
+        ]
+    },
+    {
+        "timestamp": "2024-09-10 17:22:49.019974",
+        "input_data": {
+            "From Bank": 10952,
+            "Account2": 1085463,
+            "To Bank": 881,
+            "Account4": 917383,
+            "Amount Received": 37450.01,
+            "Receiving Currency": 4,
+            "Amount Paid": 37450.01,
+            "Payment Currency": 4,
+            "Payment Format": 0,
+            "Year": 2022,
+            "Month": 9,
+            "Day": 10,
+            "Hour": 20,
+            "Minute": 31,
+            "Is Laundering": 1
+        },
+        "results": [
+            {
+                "label": "Postive",
+                "probability": 0.9786
+            }
+        ]
+    }
+]
