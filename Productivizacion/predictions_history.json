@@ -1,157 +1,211 @@
 [
     {
-        "timestamp": "2024-09-10 17:22:39.270085",
+        "timestamp": "2024-09-14 12:12:59.198526",
         "input_data": {
-            "From Bank": 9635,
-            "Account2": 748703,
-            "To Bank": 7774,
-            "Account4": 628461,
-            "Amount Received": 4670.76,
-            "Receiving Currency": 12,
-            "Amount Paid": 4670.76,
-            "Payment Currency": 12,
-            "Payment Format": 0,
-            "Year": 2022,
-            "Month": 9,
-            "Day": 8,
-            "Hour": 11,
-            "Minute": 37,
-            "Is Laundering": 1
+            "Timestamp": "2022/09/01 00:03",
+            "From Bank": 70,
+            "Account2": "100428660",
+            "To Bank": 11474,
+            "Account4": "805B716C0",
+            "Amount Received": 29024.33,
+            "Receiving Currency": "US Dollar",
+            "Amount Paid": 29024.33,
+            "Payment Currency": "US Dollar",
+            "Payment Format": "Credit Card"
         },
         "results": [
             {
-                "label": "Postive",
-                "probability": 0.998
+                "label": "Positive",
+                "probability": 0.9658
             }
         ]
     },
     {
-        "timestamp": "2024-09-10 17:22:39.274608",
+        "timestamp": "2024-09-14 12:12:59.229963",
         "input_data": {
-            "From Bank": 9466,
-            "Account2": 656588,
-            "To Bank": 64,
-            "Account4": 549994,
-            "Amount Received": 3240.34,
-            "Receiving Currency": 4,
-            "Amount Paid": 3240.34,
-            "Payment Currency": 4,
-            "Payment Format": 0,
-            "Year": 2022,
-            "Month": 9,
-            "Day": 2,
-            "Hour": 0,
-            "Minute": 15,
-            "Is Laundering": 1
+            "Timestamp": "2022/09/01 00:15",
+            "From Bank": 20,
+            "Account2": "800104D70",
+            "To Bank": 20,
+            "Account4": "800104D70",
+            "Amount Received": 8095.07,
+            "Receiving Currency": "US Dollar",
+            "Amount Paid": 8095.07,
+            "Payment Currency": "US Dollar",
+            "Payment Format": "Reinvestment"
         },
         "results": [
             {
-                "label": "Postive",
-                "probability": 0.9952
+                "label": "Negative",
+                "probability": 0.9959
             }
         ]
     },
     {
-        "timestamp": "2024-09-10 17:22:39.278926",
+        "timestamp": "2024-09-14 12:12:59.261874",
         "input_data": {
-            "From Bank": 10952,
-            "Account2": 1085463,
-            "To Bank": 881,
-            "Account4": 917383,
-            "Amount Received": 37450.01,
-            "Receiving Currency": 4,
-            "Amount Paid": 37450.01,
-            "Payment Currency": 4,
-            "Payment Format": 0,
-            "Year": 2022,
-            "Month": 9,
-            "Day": 10,
-            "Hour": 20,
-            "Minute": 31,
-            "Is Laundering": 1
+            "Timestamp": "2022/09/01 00:18",
+            "From Bank": 3196,
+            "Account2": "800107150",
+            "To Bank": 3196,
+            "Account4": "800107150",
+            "Amount Received": 7739.29,
+            "Receiving Currency": "US Dollar",
+            "Amount Paid": 7739.29,
+            "Payment Currency": "US Dollar",
+            "Payment Format": "Reinvestment"
         },
         "results": [
             {
-                "label": "Postive",
-                "probability": 0.9786
+                "label": "Negative",
+                "probability": 0.9442
             }
         ]
     },
     {
-        "timestamp": "2024-09-10 17:22:49.010348",
+        "timestamp": "2024-09-14 12:12:59.292968",
         "input_data": {
-            "From Bank": 9635,
-            "Account2": 748703,
-            "To Bank": 7774,
-            "Account4": 628461,
-            "Amount Received": 4670.76,
-            "Receiving Currency": 12,
-            "Amount Paid": 4670.76,
-            "Payment Currency": 12,
-            "Payment Format": 0,
-            "Year": 2022,
-            "Month": 9,
-            "Day": 8,
-            "Hour": 11,
-            "Minute": 37,
-            "Is Laundering": 1
+            "Timestamp": "2022/09/01 00:23",
+            "From Bank": 1208,
+            "Account2": "80010E430",
+            "To Bank": 1208,
+            "Account4": "80010E430",
+            "Amount Received": 2654.22,
+            "Receiving Currency": "US Dollar",
+            "Amount Paid": 2654.22,
+            "Payment Currency": "US Dollar",
+            "Payment Format": "Reinvestment"
         },
         "results": [
             {
-                "label": "Postive",
-                "probability": 0.998
+                "label": "Negative",
+                "probability": 0.9043
             }
         ]
     },
     {
-        "timestamp": "2024-09-10 17:22:49.015562",
+        "timestamp": "2024-09-14 12:12:59.325041",
         "input_data": {
-            "From Bank": 9466,
-            "Account2": 656588,
-            "To Bank": 64,
-            "Account4": 549994,
-            "Amount Received": 3240.34,
-            "Receiving Currency": 4,
-            "Amount Paid": 3240.34,
-            "Payment Currency": 4,
-            "Payment Format": 0,
-            "Year": 2022,
-            "Month": 9,
-            "Day": 2,
-            "Hour": 0,
-            "Minute": 15,
-            "Is Laundering": 1
+            "Timestamp": "2022/09/01 00:19",
+            "From Bank": 3203,
+            "Account2": "80010EA80",
+            "To Bank": 3203,
+            "Account4": "80010EA80",
+            "Amount Received": 13284.41,
+            "Receiving Currency": "US Dollar",
+            "Amount Paid": 13284.41,
+            "Payment Currency": "US Dollar",
+            "Payment Format": "Reinvestment"
         },
         "results": [
             {
-                "label": "Postive",
-                "probability": 0.9952
+                "label": "Negative",
+                "probability": 0.9474
             }
         ]
     },
     {
-        "timestamp": "2024-09-10 17:22:49.019974",
+        "timestamp": "2024-09-14 12:12:59.356824",
         "input_data": {
-            "From Bank": 10952,
-            "Account2": 1085463,
-            "To Bank": 881,
-            "Account4": 917383,
-            "Amount Received": 37450.01,
-            "Receiving Currency": 4,
-            "Amount Paid": 37450.01,
-            "Payment Currency": 4,
-            "Payment Format": 0,
-            "Year": 2022,
-            "Month": 9,
-            "Day": 10,
-            "Hour": 20,
-            "Minute": 31,
-            "Is Laundering": 1
+            "Timestamp": "2022/09/01 00:27",
+            "From Bank": 20,
+            "Account2": "800104D20",
+            "To Bank": 20,
+            "Account4": "800104D20",
+            "Amount Received": 9.72,
+            "Receiving Currency": "US Dollar",
+            "Amount Paid": 9.72,
+            "Payment Currency": "US Dollar",
+            "Payment Format": "Reinvestment"
         },
         "results": [
             {
-                "label": "Postive",
-                "probability": 0.9786
+                "label": "Negative",
+                "probability": 0.9992
+            }
+        ]
+    },
+    {
+        "timestamp": "2024-09-14 12:12:59.388816",
+        "input_data": {
+            "Timestamp": "2022/09/01 00:29",
+            "From Bank": 20,
+            "Account2": "800104D70",
+            "To Bank": 20,
+            "Account4": "800104D70",
+            "Amount Received": 5.38,
+            "Receiving Currency": "US Dollar",
+            "Amount Paid": 5.38,
+            "Payment Currency": "US Dollar",
+            "Payment Format": "Reinvestment"
+        },
+        "results": [
+            {
+                "label": "Negative",
+                "probability": 0.999
+            }
+        ]
+    },
+    {
+        "timestamp": "2024-09-14 12:12:59.421071",
+        "input_data": {
+            "Timestamp": "2022/09/01 00:08",
+            "From Bank": 1208,
+            "Account2": "80010E430",
+            "To Bank": 1208,
+            "Account4": "80010E430",
+            "Amount Received": 7.66,
+            "Receiving Currency": "US Dollar",
+            "Amount Paid": 7.66,
+            "Payment Currency": "US Dollar",
+            "Payment Format": "Reinvestment"
+        },
+        "results": [
+            {
+                "label": "Negative",
+                "probability": 0.9633
+            }
+        ]
+    },
+    {
+        "timestamp": "2024-09-14 12:13:00.557132",
+        "input_data": {
+            "Timestamp": "2022/09/01 00:01",
+            "From Bank": 70,
+            "Account2": "10042B660",
+            "To Bank": 14449,
+            "Account4": "80426BB90",
+            "Amount Received": 4302.05,
+            "Receiving Currency": "US Dollar",
+            "Amount Paid": 4302.05,
+            "Payment Currency": "US Dollar",
+            "Payment Format": "Cheque"
+        },
+        "results": [
+            {
+                "label": "Positive",
+                "probability": 0.927
+            }
+        ]
+    },
+    {
+        "timestamp": "2024-09-14 12:13:00.588682",
+        "input_data": {
+            "Timestamp": "2022/09/01 00:29",
+            "From Bank": 11,
+            "Account2": "80010E600",
+            "To Bank": 11,
+            "Account4": "80010E600",
+            "Amount Received": 16.33,
+            "Receiving Currency": "US Dollar",
+            "Amount Paid": 16.33,
+            "Payment Currency": "US Dollar",
+            "Payment Format": "Reinvestment"
+        },
+        "results": [
+            {
+                "label": "Negative",
+                "probability": 0.9997
             }
         ]
     }
