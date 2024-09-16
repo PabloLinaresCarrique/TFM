@@ -4,9 +4,31 @@ from datetime import datetime
 import os
 from flask_start import get_label_encoder, get_model
 
+def normalize_input(data):
+    """Ajusta los nombres de las claves para hacerlos compatibles."""
+    # Mapear claves del segundo formato al primero
+    mappings = {
+        "Account": "Account2",
+        "Account.1": "Account4",
+    }
+
+    normalized_data = {}
+    for key, value in data.items():
+        # Si la clave está en el mapeo, usar el nuevo nombre
+        if key in mappings:
+            normalized_data[mappings[key]] = value
+        else:
+            normalized_data[key] = value
+
+    return normalized_data
+
 
 def make_prediction(data):
     """Realiza una predicción con los datos proporcionados y devuelve la etiqueta y la probabilidad."""
+
+    # Normalizar el formato de los datos
+    data = normalize_input(data)
+
     label_encoder = get_label_encoder()
     model = get_model()
 
