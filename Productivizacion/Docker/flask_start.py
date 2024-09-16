@@ -13,4 +13,3 @@ def get_label_encoder():
 
 def get_model():
     return model
-
