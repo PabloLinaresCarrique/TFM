@@ -11,8 +11,16 @@
 
 # Productivización
 
-- Flask_launch es para crear el servidor local de Flask. Es necesario mantenerlo activo en jupyter notebook para hacer las peticiones (aparece el símbolo de cargando en la página)
-- Flask_predicción es para realizar las peticiones en otra instancia de jupyter notebook
+- Flask_launch.py es para crear el servidor local de Flask. Es necesario mantenerlo activo en jupyter notebook para hacer las peticiones
+- Flask_predicción.py es para realizar las peticiones en otra instancia de jupyter notebook
+- Predictions_history.json es un archivo en el que se han guardado las predicciones realizadas al Docker, no al Flask directamente. (No está en la carpeta Docker para separarlo del directorio de la creación del Docker)
+- Docker (carpeta): contiene los archivos para la creación del Docker:
+  - model (carpeta): contiene los archivos pickle del modelo y los label encoders del modelo
+  - Dockerfile es el dockerfile usado en la creación del Docker
+  - Flask.functions.py realiza predicciones transformando datos de entrada, devolviendo etiquetas y probabilidades, y guarda el historial de predicciones en un archivo JSON.
+  - Flask_launch.py: Configura la API web, definiendo rutas para información, estado y predicciones, y arranca el servidor.
+  - Flask_start.py: Carga el modelo y los codificadores con joblib, proporcionando funciones para acceder a ellos sin recargarlos constantemente.
+  - requirements.txt contiene las librerías necesarias para la creación del Docker (incluida gunicorn)
 
 # Platform
 
