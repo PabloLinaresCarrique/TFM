@@ -1,0 +1,122 @@
+[   {
+        "Timestamp": "2022/09/01 00:03",
+        "From Bank": 70,
+        "Account2": "100428660",
+        "To Bank": 11474,
+        "Account4": "805B716C0",
+        "Amount Received": 29024.33,
+        "Receiving Currency": "US Dollar",
+        "Amount Paid": 29024.33,
+        "Payment Currency": "US Dollar",
+        "Payment Format": "Credit Card"
+    },
+    {
+        "Timestamp": "2022/09/01 00:15",
+        "From Bank": 20,
+        "Account2": "800104D70",
+        "To Bank": 20,
+        "Account4": "800104D70",
+        "Amount Received": 8095.07,
+        "Receiving Currency": "US Dollar",
+        "Amount Paid": 8095.07,
+        "Payment Currency": "US Dollar",
+        "Payment Format": "Reinvestment"
+    },
+    {
+        "Timestamp": "2022/09/01 00:18",
+        "From Bank": 3196,
+        "Account2": "800107150",
+        "To Bank": 3196,
+        "Account4": "800107150",
+        "Amount Received": 7739.29,
+        "Receiving Currency": "US Dollar",
+        "Amount Paid": 7739.29,
+        "Payment Currency": "US Dollar",
+        "Payment Format": "Reinvestment"
+    },
+    {
+        "Timestamp": "2022/09/01 00:23",
+        "From Bank": 1208,
+        "Account2": "80010E430",
+        "To Bank": 1208,
+        "Account4": "80010E430",
+        "Amount Received": 2654.22,
+        "Receiving Currency": "US Dollar",
+        "Amount Paid": 2654.22,
+        "Payment Currency": "US Dollar",
+        "Payment Format": "Reinvestment"
+    },
+    {
+        "Timestamp": "2022/09/01 00:19",
+        "From Bank": 3203,
+        "Account2": "80010EA80",
+        "To Bank": 3203,
+        "Account4": "80010EA80",
+        "Amount Received": 13284.41,
+        "Receiving Currency": "US Dollar",
+        "Amount Paid": 13284.41,
+        "Payment Currency": "US Dollar",
+        "Payment Format": "Reinvestment"
+    },
+    {
+        "Timestamp": "2022/09/01 00:27",
+        "From Bank": 20,
+        "Account2": "800104D20",
+        "To Bank": 20,
+        "Account4": "800104D20",
+        "Amount Received": 9.72,
+        "Receiving Currency": "US Dollar",
+        "Amount Paid": 9.72,
+        "Payment Currency": "US Dollar",
+        "Payment Format": "Reinvestment"
+    },
+    {
+        "Timestamp": "2022/09/01 00:29",
+        "From Bank": 20,
+        "Account2": "800104D70",
+        "To Bank": 20,
+        "Account4": "800104D70",
+        "Amount Received": 5.38,
+        "Receiving Currency": "US Dollar",
+        "Amount Paid": 5.38,
+        "Payment Currency": "US Dollar",
+        "Payment Format": "Reinvestment"
+    },
+    {
+        "Timestamp": "2022/09/01 00:08",
+        "From Bank": 1208,
+        "Account2": "80010E430",
+        "To Bank": 1208,
+        "Account4": "80010E430",
+        "Amount Received": 7.66,
+        "Receiving Currency": "US Dollar",
+        "Amount Paid": 7.66,
+        "Payment Currency": "US Dollar",
+        "Payment Format": "Reinvestment"
+    },
+    {
+        "Timestamp": "2022/09/01 00:01",
+        "From Bank": 70,
+        "Account2": "10042B660",
+        "To Bank": 14449,
+        "Account4": "80426BB90",
+        "Amount Received": 4302.05,
+        "Receiving Currency": "US Dollar",
+        "Amount Paid": 4302.05,
+        "Payment Currency": "US Dollar",
+        "Payment Format": "Cheque"
+    },
+    {
+        "Timestamp": "2022/09/01 00:29",
+        "From Bank": 11,
+        "Account2": "80010E600",
+        "To Bank": 11,
+        "Account4": "80010E600",
+        "Amount Received": 16.33,
+        "Receiving Currency": "US Dollar",
+        "Amount Paid": 16.33,
+        "Payment Currency": "US Dollar",
+        "Payment Format": "Reinvestment"
+    }
+    
+]
