@@ -14,7 +14,8 @@
 - Flask_launch.py es para crear el servidor local de Flask. Es necesario mantenerlo activo en jupyter notebook para hacer las peticiones
 - Flask_predicción.py es para realizar las peticiones en otra instancia de jupyter notebook
 - predictions_history.json es un archivo en el que se han guardado las predicciones realizadas al Docker, no al Flask directamente. (No está en la carpeta Docker para separarlo del directorio de la creación del Docker). "label:positive" significa que es un caso probable de Laundering (equivaldría a "Is_Laundering : 1)
-- data.json es ek archivo de datos de entrada con el que se hace la peticion y que se guardan en predictions_history.json
+- data.json es el archivo de datos de entrada con el que se hace la peticion y que se guardan en predictions_history.json
+- Códigos_Docker.txt contiene los códigos para crear y usar los endpoints de nuestro docker en consola
 - Docker (carpeta): contiene los archivos para la creación del Docker:
   - model (carpeta): contiene los archivos pickle del modelo y los label encoders del modelo
   - Dockerfile es el dockerfile usado en la creación del Docker
