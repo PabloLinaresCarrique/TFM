@@ -1,0 +1,22 @@
+#Se recuerda que se debe ajustar la ruta para que los códigos funcionen
+#se utiliza para listar todos los contenedores en Docker, tanto los que están actualmente en ejecución como los que se han detenido o han sido eliminados para evitar repeticiones :
+docker ps -a
+
+
+#se utiliza para construir una imagen de Docker a partir de un archivo Dockerfile y asignarle un nombre:
+docker build -t docker_tfm .
+
+#ssto iniciaría un contenedor basado en la imagen docker_tfm, mapeando el puerto 8000 del contenedor al puerto 8000 del host:
+docker run -i -p 8000:8000 -d docker_tfm
+
+#realiza una solicitud HTTP de tipo GET a la ruta /health para comprobar el estado del contenedor
+curl.exe -X GET http://localhost:8000/health
+
+#realiza una solicitud HTTP de tipo GET a la ruta /info para comprobar la informacion del contenedor
+curl.exe -X GET http://localhost:8000/info
+
+#envía una solicitud HTTP de tipo POST al endpoint /prediccion para ejecutar la prediccion, con el archivo data.json como datos de entrada
+curl.exe -X POST http://localhost:8000/prediccion -H "Content-Type: application/json" -d @C:\Users\Fabio\TFM\data.json
+
+#Se copia el archivo predictions_history.json desde el contenedor Docker, donde se almacena el historial de predicciones, a tu sistema de archivos local en la ruta C:\Users\Fabio\TFM\:
+docker cp fc7b35bf7fde:/app/predictions_history.json C:\Users\Fabio\TFM\
