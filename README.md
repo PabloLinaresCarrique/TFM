@@ -1,5 +1,11 @@
 # TFM
 
+# Entremaiento_modelo
+
+- ModeloXGboost.ipynb es el notebook con el entrenamiento del modelo de machine learningn XGBoost que se productivizará
+- ModeloRandomForest.ipynb es un notebook que contiene uno de los modelos con el que se ha comparado ModeloXGboost.ipynb
+- LabelEncodersCreacion.ipynb es el archivo con el que se crean los label encoders para los modelos
+
 # Útiles
 
 - Datasets: contiene el link de descarga de los datasets utilizados
