@@ -79,13 +79,12 @@ Clave de API de OpenAI (OPENAI_API_KEY)
    ```
    python utils.py
    ```
-
 5. Ejecutar la aplicación localmente:
    ```
    streamlit run app.py
    ```
 
-- Estructura del Proyecto
+Estructura del Proyecto
 app.py: Punto de entrada principal de la aplicación.
 login.py: Módulo de autenticación de usuarios.
 dashboard.py: Panel de casos AML.
