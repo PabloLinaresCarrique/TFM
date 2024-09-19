@@ -10,9 +10,6 @@
 
 # Productivización
 
-- predictions_history.json es un archivo en el que se han guardado las predicciones realizadas al Docker, no al Flask directamente. (No está en la carpeta Docker para separarlo del directorio de la creación del Docker). "label:positive" significa que es un caso probable de Laundering (equivaldría a "Is_Laundering : 1)
-- data.json es el archivo de datos de entrada con el que se hace la peticion y que se guardan en predictions_history.json
-- Códigos_Docker.txt contiene los códigos para crear y usar los endpoints de nuestro docker en consola
 - Docker (carpeta): contiene los archivos para la creación del Docker:
   - model (carpeta): contiene los archivos pickle del modelo y los label encoders del modelo
   - Dockerfile es el dockerfile usado en la creación del Docker
@@ -21,7 +18,7 @@
   - Flask_start.py: Carga el modelo y los codificadores con joblib, proporcionando funciones para acceder a ellos sin recargarlos constantemente.
   - requirements.txt contiene las librerías necesarias para la creación del Docker (incluida gunicorn)
     
-- predictions_history.json es un archivo en el que se han guardado las predicciones realizadas al Docker, no al Flask directamente. (No está en la carpeta Docker para separarlo del directorio de la creación del Docker). "label:positive" significa que es un caso probable de Laundering (equivaldría a "Is_Laundering : 1)
+- predictions_history.json es el archivo en el que se han guardado las predicciones realizadas al Docker, no al Flask directamente. (No está en la carpeta Docker para separarlo del directorio de la creación del Docker). "label:positive" significa que es un caso probable de Laundering (equivaldría a "Is_Laundering : 1)
 - data.json es el archivo de datos de entrada con el que se hace la peticion y que se guardan en predictions_history.json
 - Códigos_Docker.txt contiene los códigos para crear y usar los endpoints de nuestro docker en consola
   
@@ -32,7 +29,7 @@
 
 # Notebook_de_predicciones
 
-- Notebook_Predicciones.ipynb es el notebook de predicciones que sustituye a la productivización del modelo mediante Flask y Docker
+- Notebook_Predicciones.ipynb es el notebook que realiza las predicciones para la plataforma que sustituye a la productivización del modelo mediante Flask y Docker
 
 # Platform
 
