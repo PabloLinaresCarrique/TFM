@@ -44,31 +44,35 @@ CortexNeural AML Platform es una solución integral de Anti-Lavado de Dinero (AM
 -Demo en vivo
 La plataforma está desplegada y accesible en: www.cortexplatforms.com
 
--Características
-Autenticación de Usuario: Sistema de inicio de sesión y registro seguro para miembros del equipo.
-Panel de Casos AML: Panel interactivo para revisar y gestionar casos de AML.
-Detalles de Alertas: Vista detallada de alertas individuales con gráficos mejorados de relaciones entre entidades.
-Asistente Virtual: Chatbot con IA para responder preguntas sobre procedimientos de AML.
-Panel de Administración: Herramientas administrativas para la gestión de inventario y control de privilegios de usuarios.
-Búsqueda OSINT: Capacidades de búsqueda de inteligencia de fuentes abiertas para una debida diligencia mejorada.
-Visor de PDF: Visor integrado para documentos relacionados con AML almacenados en Amazon S3.
-Stack Tecnológico
-Frontend: Streamlit
-Backend: Python
-Bases de Datos: MySQL, MongoDB
-Servicios en la Nube: Amazon S3
-Machine Learning: OpenAI GPT, FAISS para almacenamiento vectorial
-Visualización: NetworkX, PyVis
-Bibliotecas Adicionales: pandas, PyPDF2, langchain, pymongo, boto3
-Despliegue: Heroku
+## Características
 
--Configuración e Instalación (para desarrollo local)
-1.Clonar el repositorio.
-2.Instalar dependencias:
+- **Autenticación de Usuario**: Sistema de inicio de sesión y registro seguro para miembros del equipo.
+- **Panel de Casos AML**: Panel interactivo para revisar y gestionar casos de AML.
+- **Detalles de Alertas**: Vista detallada de alertas individuales con gráficos mejorados de relaciones entre entidades.
+- **Asistente Virtual**: Chatbot con IA para responder preguntas sobre procedimientos de AML.
+- **Panel de Administración**: Herramientas administrativas para la gestión de inventario y control de privilegios de usuarios.
+- **Búsqueda OSINT**: Capacidades de búsqueda de inteligencia de fuentes abiertas para una debida diligencia mejorada.
+- **Visor de PDF**: Visor integrado para documentos relacionados con AML almacenados en Amazon S3.
+
+## Stack Tecnológico
+
+- **Frontend**: Streamlit
+- **Backend**: Python
+- **Bases de Datos**: MySQL, MongoDB
+- **Servicios en la Nube**: Amazon S3
+- **Machine Learning**: OpenAI GPT, FAISS para almacenamiento vectorial
+- **Visualización**: NetworkX, PyVis
+- **Bibliotecas Adicionales**: pandas, PyPDF2, langchain, pymongo, boto3
+- **Despliegue**: Heroku
+
+## Configuración e Instalación (para desarrollo local)
+
+1. Clonar el repositorio.
+2. Instalar las dependencias:
    ```
    pip install -r requirements.txt
    ```
-3.Configurar variables de entorno:
+3. Configurar variables de entorno:
 
 Credenciales de la base de datos (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
 Credenciales de AWS (AWS_ACCESS_KEY, AWS_SECRET_KEY)
