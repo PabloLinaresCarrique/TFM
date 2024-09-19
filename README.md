@@ -1,19 +1,19 @@
 # TFM
 
-# Entrenamiento_modelo
+# ENTRENAMIENTO_MODELO
 
 - ModeloXGBoost.ipynb es el notebook con el entrenamiento del modelo de machine learning XGBoost que se productivizará.
 - ModeloRandomForest.ipynb es un notebook que contiene uno de los modelos con los que se ha comparado ModeloXGBoost.ipynb.
 - LabelEncodersCreacion.ipynb es el archivo con el que se crean los label encoders para los modelos.
 
-# Útiles
+# ÚTILES
 
 - Datasets: contiene el enlace de descarga de los datasets utilizados.
 - Label Encoders: contiene los label encoders usados en el modelo, comprimidos.
 - Modelo (carpeta): contiene el archivo pickle comprimido del modelo que se utiliza para la productivización del mismo.
 
 
-# Productivización
+# PRODUCTIVIZACIÓN
 
 - Docker (carpeta): contiene los archivos para la creación del Docker:
   - model (carpeta): contiene los archivos pickle del modelo y los label encoders.
@@ -32,86 +32,85 @@
   - Flask_predicción.ipynb: para realizar las peticiones en otra instancia de Jupyter Notebook.
   - 
 
-# Notebook_de_predicciones
+# NOTEBOOK_DE_PREDICCIONES
 
 - Notebook_Predicciones.ipynb es el notebook que realiza las predicciones para la plataforma que sustituye a la productivización del modelo mediante Flask y Docker
 
 
-# CortexNeural AML Platform
+# PLATAFORMA
 
-## Overview
-CortexNeural AML Platform is a comprehensive Anti-Money Laundering (AML) solution designed to assist financial institutions in detecting, analyzing, and reporting suspicious activities. This platform integrates advanced machine learning techniques with traditional rule-based systems to provide a robust AML framework.
+CortexNeural AML Platform es una solución integral de Anti-Lavado de Dinero (AML) diseñada para ayudar a las instituciones financieras a detectar, analizar y reportar actividades sospechosas. Esta plataforma integra técnicas avanzadas de machine learning con sistemas basados en reglas tradicionales para proporcionar un marco sólido de AML.
 
-## Live Demo
-The platform is deployed and accessible at: [www.cortexplatforms.com](https://www.cortexplatforms.com)
+-Demo en vivo
+La plataforma está desplegada y accesible en: www.cortexplatforms.com
 
-## Features
-- **User Authentication**: Secure login and registration system for team members.
-- **AML Case Dashboard**: Interactive dashboard for reviewing and managing AML cases.
-- **Alert Details**: Detailed view of individual alerts with enhanced entity relationship graphs.
-- **Virtual Assistant**: AI-powered chatbot for answering questions about AML procedures.
-- **Admin Dashboard**: Administrative tools for inventory management and user privilege control.
-- **OSINT Search**: Open-source intelligence search capabilities for enhanced due diligence.
-- **PDF Viewer**: Integrated viewer for AML-related documents stored in Amazon S3.
+-Características
+Autenticación de Usuario: Sistema de inicio de sesión y registro seguro para miembros del equipo.
+Panel de Casos AML: Panel interactivo para revisar y gestionar casos de AML.
+Detalles de Alertas: Vista detallada de alertas individuales con gráficos mejorados de relaciones entre entidades.
+Asistente Virtual: Chatbot con IA para responder preguntas sobre procedimientos de AML.
+Panel de Administración: Herramientas administrativas para la gestión de inventario y control de privilegios de usuarios.
+Búsqueda OSINT: Capacidades de búsqueda de inteligencia de fuentes abiertas para una debida diligencia mejorada.
+Visor de PDF: Visor integrado para documentos relacionados con AML almacenados en Amazon S3.
+Stack Tecnológico
+Frontend: Streamlit
+Backend: Python
+Bases de Datos: MySQL, MongoDB
+Servicios en la Nube: Amazon S3
+Machine Learning: OpenAI GPT, FAISS para almacenamiento vectorial
+Visualización: NetworkX, PyVis
+Bibliotecas Adicionales: pandas, PyPDF2, langchain, pymongo, boto3
+Despliegue: Heroku
 
-## Technology Stack
-- **Frontend**: Streamlit
-- **Backend**: Python
-- **Databases**: MySQL, MongoDB
-- **Cloud Services**: Amazon S3
-- **Machine Learning**: OpenAI GPT, FAISS for vector storage
-- **Visualization**: NetworkX, PyVis
-- **Additional Libraries**: pandas, PyPDF2, langchain, pymongo, boto3
-- **Deployment**: Heroku
-
-## Setup and Installation (for local development)
-1. Clone the repository
-2. Install dependencies:
+-Configuración e Instalación (para desarrollo local)
+1.Clonar el repositorio.
+2.Instalar dependencias:
    ```
    pip install -r requirements.txt
    ```
-3. Set up environment variables:
-   - Database credentials (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
-   - AWS credentials (AWS_ACCESS_KEY, AWS_SECRET_KEY)
-   - MongoDB URI (MONGO_URI)
-   - OpenAI API key (OPENAI_API_KEY)
+3.Configurar variables de entorno:
 
-4. Initialize the database:
+Credenciales de la base de datos (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
+Credenciales de AWS (AWS_ACCESS_KEY, AWS_SECRET_KEY)
+URI de MongoDB (MONGO_URI)
+Clave de API de OpenAI (OPENAI_API_KEY)
+
+4.Inicializar la base de datos:
    ```
    python utils.py
    ```
 
-5. Run the application locally:
+5. Ejecutar la aplicación localmente:
    ```
    streamlit run app.py
    ```
 
-## Project Structure
-- `app.py`: Main application entry point
-- `login.py`: User authentication module
-- `dashboard.py`: AML case dashboard
-- `alert_details.py`: Detailed view of individual alerts
-- `chatbot.py`: Virtual assistant implementation
-- `admin_dashboard.py`: Admin functionalities
-- `osint_search.py`: Open-source intelligence search module
-- `pdf_viewer.py`: PDF viewing module
-- `utils.py`: Utility functions for database and S3 connections
-- `requirements.txt`: List of project dependencies
+- Estructura del Proyecto
+app.py: Punto de entrada principal de la aplicación.
+login.py: Módulo de autenticación de usuarios.
+dashboard.py: Panel de casos AML.
+alert_details.py: Vista detallada de alertas individuales.
+chatbot.py: Implementación del asistente virtual.
+admin_dashboard.py: Funcionalidades de administración.
+osint_search.py: Módulo de búsqueda de inteligencia de fuentes abiertas.
+pdf_viewer.py: Módulo de visualización de PDF.
+utils.py: Funciones de utilidad para conexiones a bases de datos y S3.
+requirements.txt: Lista de dependencias del proyecto.
 
 ## Usage
-1. Access the platform at [www.cortexplatforms.com](https://www.cortexplatforms.com)
-2. Log in or register a new user account.
-3. Navigate through the dashboard to review AML cases.
-4. Use the virtual assistant for guidance on AML procedures.
-5. Administrators can access additional features through the Admin Dashboard.
+1. Acceder a la plataforma en [www.cortexplatforms.com](https://www.cortexplatforms.com)
+2. Iniciar sesión o registrar una nueva cuenta de usuario.
+3. Navegar por el panel para revisar casos de AML.
+4. Utilizar el asistente virtual para obtener orientación sobre procedimientos de AML.
+5. Los administradores pueden acceder a funciones adicionales a través del Panel de Administración.
 
-## Security Notes
-- Ensure all sensitive information is stored securely and not exposed in the codebase.
-- Regularly update dependencies to patch any security vulnerabilities.
-- Implement proper access controls and data encryption practices.
+- Notas de Seguridad
+Asegurarse de que toda la información sensible esté almacenada de forma segura y no expuesta en el código fuente.
+Actualizar regularmente las dependencias para corregir vulnerabilidades de seguridad.
+Implementar controles de acceso adecuados y prácticas de cifrado de datos.
 
-## Deployment
-The application is deployed on Heroku. For information on deploying Streamlit apps on Heroku, refer to the [Streamlit deployment guide](https://docs.streamlit.io/knowledge-base/tutorials/deploy/heroku).
+Despliegue
+La aplicación está desplegada en Heroku. Para obtener información sobre el despliegue de aplicaciones Streamlit en Heroku, consulta la guía de despliegue de Streamlit. [Streamlit deployment guide](https://docs.streamlit.io/knowledge-base/tutorials/deploy/heroku).
 
 
 
