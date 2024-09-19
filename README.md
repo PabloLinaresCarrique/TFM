@@ -1,11 +1,10 @@
 # TFM
 
-# Modelo
+# Útiles
 
 - Datasets: contiene el link de descarga de los datasets utilizados
 - Label Encoders: contiene los label encoders usados en el modelo comprimidos
-- Modelo (carpeta) :
-    - model_xgb_optimized.zip es el archivo pickle comprimido del modelo que se utiliza para la productivización del modelo 
+- Modelo (carpeta) : contiene el archivo pickle comprimido del modelo que se utiliza para la productivización del modelo 
 
 
 # Productivización
