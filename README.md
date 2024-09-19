@@ -4,13 +4,12 @@
 
 - Datasets: contiene el link de descarga de los datasets utilizados
 - Label Encoders: contiene los label encoders usados en el modelo comprimidos
-- Modelo:
+- Modelo (carpeta) :
     - model_xgb_optimized.zip es el archivo pickle comprimido del modelo que se utiliza para la productivización del modelo 
+
 
 # Productivización
 
-- Flask_launch.ipynb es para crear el servidor local de Flask. Es necesario mantenerlo activo en jupyter notebook para hacer las peticiones
-- Flask_predicción.ipynb es para realizar las peticiones en otra instancia de jupyter notebook
 - predictions_history.json es un archivo en el que se han guardado las predicciones realizadas al Docker, no al Flask directamente. (No está en la carpeta Docker para separarlo del directorio de la creación del Docker). "label:positive" significa que es un caso probable de Laundering (equivaldría a "Is_Laundering : 1)
 - data.json es el archivo de datos de entrada con el que se hace la peticion y que se guardan en predictions_history.json
 - Códigos_Docker.txt contiene los códigos para crear y usar los endpoints de nuestro docker en consola
@@ -21,6 +20,15 @@
   - Flask_launch.py: Configura la API web, definiendo rutas para información, estado y predicciones, y arranca el servidor.
   - Flask_start.py: Carga el modelo y los codificadores con joblib, proporcionando funciones para acceder a ellos sin recargarlos constantemente.
   - requirements.txt contiene las librerías necesarias para la creación del Docker (incluida gunicorn)
+    
+- predictions_history.json es un archivo en el que se han guardado las predicciones realizadas al Docker, no al Flask directamente. (No está en la carpeta Docker para separarlo del directorio de la creación del Docker). "label:positive" significa que es un caso probable de Laundering (equivaldría a "Is_Laundering : 1)
+- data.json es el archivo de datos de entrada con el que se hace la peticion y que se guardan en predictions_history.json
+- Códigos_Docker.txt contiene los códigos para crear y usar los endpoints de nuestro docker en consola
+  
+- Flask (carpeta): contiene los archivos para hacer la predicción mediante Flask:
+  - Flask_launch.ipynb es para crear el servidor local de Flask. Es necesario mantenerlo activo en jupyter notebook para hacer las peticiones
+  - Flask_predicción.ipynb es para realizar las peticiones en otra instancia de jupyter notebook
+
 
 # Notebook_de_predicciones
 
