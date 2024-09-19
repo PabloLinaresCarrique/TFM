@@ -12,7 +12,7 @@
 
 - Docker (carpeta): contiene los archivos para la creación del Docker:
   - model (carpeta): contiene los archivos pickle del modelo y los label encoders del modelo
-  - Dockerfile es el dockerfile usado en la creación del Docker
+  - Dockerfile (IMPORTATE que el archivo sea sin formato, es decir, sin .txt) es el dockerfile usado en la creación del Docker
   - Flask.functions.py realiza predicciones transformando datos de entrada, devolviendo etiquetas y probabilidades, y guarda el historial de predicciones en un archivo JSON.
   - Flask_launch.py: Configura la API web, definiendo rutas para información, estado y predicciones, y arranca el servidor.
   - Flask_start.py: Carga el modelo y los codificadores con joblib, proporcionando funciones para acceder a ellos sin recargarlos constantemente.
