@@ -84,7 +84,7 @@ Clave de API de OpenAI (OPENAI_API_KEY)
    streamlit run app.py
    ```
 
-Estructura del Proyecto
+-Estructura del Proyecto:
 app.py: Punto de entrada principal de la aplicación.
 login.py: Módulo de autenticación de usuarios.
 dashboard.py: Panel de casos AML.
@@ -96,7 +96,7 @@ pdf_viewer.py: Módulo de visualización de PDF.
 utils.py: Funciones de utilidad para conexiones a bases de datos y S3.
 requirements.txt: Lista de dependencias del proyecto.
 
-## Usage
+## Uso
 1. Acceder a la plataforma en [www.cortexplatforms.com](https://www.cortexplatforms.com)
 2. Iniciar sesión o registrar una nueva cuenta de usuario.
 3. Navegar por el panel para revisar casos de AML.
